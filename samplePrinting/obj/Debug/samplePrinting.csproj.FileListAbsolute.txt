@@ -1,0 +1,9 @@
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\bin\Debug\samplePrinting.exe.config
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\bin\Debug\samplePrinting.exe
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\bin\Debug\samplePrinting.pdb
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.csprojAssemblyReference.cache
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.Form1.resources
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.Properties.Resources.resources
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.csproj.GenerateResource.cache
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.exe
+C:\Users\yhigashioka\source\repos\samplePrinting\samplePrinting\obj\Debug\samplePrinting.pdb
