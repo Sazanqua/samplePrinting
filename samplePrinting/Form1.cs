@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,17 +21,23 @@ namespace samplePrinting
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawImage(bmp, 0, 0);
+            e.Graphics.DrawString("Cashier 1", new Font("Times New Roman", 12, FontStyle.Regular), Brushes.Black, new Point(10,10));
 
         }
-        Bitmap bmp;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Graphics g = CreateGraphics();
-            bmp = new Bitmap(this.Size.Width, this.Size.Height, g);
-            Graphics mg = Graphics.FromImage(bmp);
-            mg.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, this.Size);
+            //printPreviewDialog1.Document = printDocument1;
+            //printPreviewDialog1.ShowDialog();
+
+
+
+
+            printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("custom", 200, 200);
+            printPreviewDialog1.Document = printDocument1;
             printPreviewDialog1.ShowDialog();
+
+
         }
     }
 }
